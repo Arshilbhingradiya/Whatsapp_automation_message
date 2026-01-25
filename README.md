@@ -145,8 +145,6 @@ Use responsibly for educational or internal purposes only.
 
 **Arshil Bhingradiya**
 
-
-
 * LICENSE.md
 * Project report (college format)
 * API documentation
