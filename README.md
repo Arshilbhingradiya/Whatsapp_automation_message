@@ -141,9 +141,6 @@ Use responsibly for educational or internal purposes only.
 
 ---
 
-## 👨‍💻 Author
-
-**Arshil Bhingradiya**
 
 * LICENSE.md
 * Project report (college format)
