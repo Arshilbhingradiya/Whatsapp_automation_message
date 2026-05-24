@@ -6,9 +6,9 @@ node_modules/
 
 # Cache
 .wwebjs_cache/
-.pdfs/
-.contacts.csv
-.invitation.pdf
+*.pdf
+contacts.csv
+invitation.pdf
 # Logs
 *.log
 
