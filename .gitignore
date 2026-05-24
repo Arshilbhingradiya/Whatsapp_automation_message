@@ -12,6 +12,7 @@ invitation.pdf
 # Logs
 *.log
 
+
 # Environment files
 .env
 
