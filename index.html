@@ -1,0 +1,58 @@
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WhatsApp Invitation Sender</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      #log {
+        border: 1px solid #ccc;
+        padding: 10px;
+        height: 200px;
+        overflow-y: scroll;
+        background: #f9f9f9;
+      }
+      button {
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>📩 WhatsApp Invitation Sender</h2>
+    <div>
+      <button id="btnConnect">Connect WhatsApp</button>
+      <p id="status">Status: not connected</p>
+      <img id="qrImg" width="200" />
+    </div>
+    <hr />
+    <div>
+      <button id="btnPickCsv">📂 Select CSV</button>
+      <span id="csvPathLabel"></span>
+    </div>
+    <div>
+      <button id="btnPickPdf">📂 Select PDF</button>
+      <span id="pdfPathLabel"></span>
+    </div>
+    <div>
+      <textarea
+        id="msgText"
+        placeholder="Enter invitation message"
+        rows="3"
+        cols="40"
+      ></textarea>
+    </div>
+    <div>
+      <button id="btnSend">🚀 Send Invitations</button>
+    </div>
+    <hr />
+    <h3>Logs</h3>
+    <div id="log"></div>
+    <h3>Progress</h3>
+    <div id="progress"></div>
+    <script src="renderer.js"></script>
+  </body>
+</html>
+```
